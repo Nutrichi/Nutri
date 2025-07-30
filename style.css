@@ -1,0 +1,24 @@
+body.theme-pandaria {
+  background: #f3f1e7 url('https://www.zamimg.com/uploads/screenshots/normal/907768-pandaria-scenery.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #222;
+  padding: 1em;
+}
+nav {
+  background: rgba(255, 255, 255, 0.85);
+  border: 2px solid #92bf3b;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1d4411;
+  font-weight: bold;
+}
+h1 {
+  color: #3d5520;
+}
