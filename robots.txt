@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://nutrichi.github.io/nutri/sitemap.xml

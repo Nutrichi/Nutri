@@ -1,24 +1,33 @@
-body.theme-pandaria {
-  background: #f3f1e7 url('https://www.zamimg.com/uploads/screenshots/normal/907768-pandaria-scenery.jpg') no-repeat center center fixed;
-  background-size: cover;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+body {
+  background-color: #f0f4f2;
+  font-family: "Segoe UI", sans-serif;
   color: #222;
-  padding: 1em;
+  padding: 20px;
+  background-image: url('https://wow.zamimg.com/uploads/screenshots/normal/1063897.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 nav {
   background: rgba(255, 255, 255, 0.85);
-  border: 2px solid #92bf3b;
-  border-radius: 10px;
   padding: 10px;
+  border-radius: 10px;
   margin-bottom: 20px;
-  text-align: center;
 }
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #1d4411;
   font-weight: bold;
+  color: #006644;
+}
+main {
+  background-color: rgba(255, 255, 255, 0.93);
+  padding: 20px;
+  border-radius: 10px;
 }
 h1 {
-  color: #3d5520;
+  color: #006644;
+}
+iframe {
+  max-width: 100%;
+  border: none;
 }
