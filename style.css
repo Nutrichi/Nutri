@@ -1,33 +1,71 @@
+
 body {
-  background-color: #f0f4f2;
-  font-family: "Segoe UI", sans-serif;
-  color: #222;
+  margin: 0;
+  font-family: Georgia, serif;
+  color: #2c2a26;
+  background: url('https://www.transparenttextures.com/patterns/papirus.png'), #e8f2e0;
+  background-repeat: repeat;
   padding: 20px;
-  background-image: url('https://wow.zamimg.com/uploads/screenshots/normal/1063897.jpg');
-  background-size: cover;
-  background-attachment: fixed;
 }
+
+header {
+  background-color: #bcd9b1;
+  border-bottom: 5px solid #8fa27a;
+  text-align: center;
+  padding: 30px 0;
+}
+
+header h1 {
+  font-size: 2.8em;
+  color: #344b2b;
+  font-family: 'ZCOOL QingKe HuangYou', serif;
+}
+
 nav {
-  background: rgba(255, 255, 255, 0.85);
-  padding: 10px;
-  border-radius: 10px;
+  background-color: #8fa27a;
+  padding: 12px 0;
+  text-align: center;
+  border-top: 3px solid #c9e0c3;
+  border-bottom: 3px solid #c9e0c3;
   margin-bottom: 20px;
 }
+
 nav a {
-  margin: 0 15px;
+  color: #fafafa;
   text-decoration: none;
+  margin: 0 18px;
+  font-size: 1.2em;
   font-weight: bold;
-  color: #006644;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 main {
-  background-color: rgba(255, 255, 255, 0.93);
-  padding: 20px;
-  border-radius: 10px;
+  max-width: 1000px;
+  margin: auto;
+  background: #fffff8cc;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.15);
 }
-h1 {
-  color: #006644;
+
+h1, h2 {
+  color: #2c3e24;
+  margin-bottom: 0.8em;
 }
+
+h2 {
+  font-size: 1.8em;
+  border-bottom: 2px solid #c9e0c3;
+  padding-bottom: 0.3em;
+}
+
 iframe {
-  max-width: 100%;
   border: none;
+  width: 100%;
+  max-width: 620px;
+  height: 360px;
+  margin: 20px 0;
 }
