@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #2f2e2c;
+}
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+header img {
+    width: 80%;
+    max-width: 900px;
+}
+nav {
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.9);
+    padding: 10px;
+    font-size: 18px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #3b2f2f;
+    font-weight: bold;
+}
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 20px;
+    border-radius: 8px;
+}
